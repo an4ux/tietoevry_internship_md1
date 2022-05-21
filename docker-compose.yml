@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  nginx:
+    image: tietonginx
+    ports:
+      - "8765:5678"
